@@ -7,6 +7,9 @@ import org.postgresql.util.PGobject;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentMap;
 
+/**
+ * PostgresSQL数据库方言
+ */
 public class PostgresDialect extends DefaultEventuateSqlDialect {
 
   private ConcurrentMap<ColumnCacheKey, String> columnTypeCache = new ConcurrentHashMap<>();

@@ -7,6 +7,9 @@ import java.util.Enumeration;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+/**
+ * ID生成实现
+ */
 public class IdGeneratorImpl implements IdGenerator {
 
   private Logger logger = LoggerFactory.getLogger(getClass());

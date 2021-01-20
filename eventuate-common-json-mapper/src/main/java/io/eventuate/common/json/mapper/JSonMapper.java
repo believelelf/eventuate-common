@@ -9,6 +9,9 @@ import com.fasterxml.jackson.datatype.jdk8.Jdk8Module;
 
 import java.io.IOException;
 
+/**
+ * Json 序列化及反序列化工具类
+ */
 public class JSonMapper {
 
   public static ObjectMapper objectMapper = new ObjectMapper();

@@ -1,5 +1,8 @@
 package io.eventuate.common.jdbc.sqldialect;
 
+/**
+ * 默认数据库方言实现
+ */
 public class DefaultEventuateSqlDialect implements EventuateSqlDialect {
 
   private String customCurrentTimeInMillisecondsExpression;

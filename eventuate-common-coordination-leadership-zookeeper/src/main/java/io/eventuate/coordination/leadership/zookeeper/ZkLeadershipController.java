@@ -6,6 +6,9 @@ import org.slf4j.LoggerFactory;
 
 import java.util.concurrent.CountDownLatch;
 
+/**
+ * zk Leadership 控制器
+ */
 public class ZkLeadershipController implements LeadershipController {
   private Logger logger = LoggerFactory.getLogger(getClass());
 

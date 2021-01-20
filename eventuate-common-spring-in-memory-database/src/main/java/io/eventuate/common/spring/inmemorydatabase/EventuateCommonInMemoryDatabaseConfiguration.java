@@ -11,6 +11,9 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Optional;
 
+/**
+ * 内存数据源
+ */
 @Configuration
 public class EventuateCommonInMemoryDatabaseConfiguration {
   @Bean

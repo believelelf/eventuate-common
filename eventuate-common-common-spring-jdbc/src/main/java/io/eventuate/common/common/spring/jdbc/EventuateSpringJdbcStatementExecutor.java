@@ -9,6 +9,9 @@ import org.springframework.jdbc.core.JdbcTemplate;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * jdbc执行：包装Spring jdbcTemplate
+ */
 public class EventuateSpringJdbcStatementExecutor implements EventuateJdbcStatementExecutor  {
 
   private JdbcTemplate jdbcTemplate;

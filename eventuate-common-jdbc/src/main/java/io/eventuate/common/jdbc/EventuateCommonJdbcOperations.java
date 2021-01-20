@@ -6,6 +6,9 @@ import io.eventuate.common.json.mapper.JSonMapper;
 import java.util.Map;
 import java.util.Optional;
 
+/**
+ * jdbc 操作 events 及 message表
+ */
 public class EventuateCommonJdbcOperations {
 
   private EventuateJdbcStatementExecutor eventuateJdbcStatementExecutor;

@@ -5,6 +5,9 @@ import io.eventuate.common.id.IdGeneratorImpl;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
+/**
+ * IdGenerator装配
+ */
 @Configuration
 public class IdGeneratorConfiguration {
 

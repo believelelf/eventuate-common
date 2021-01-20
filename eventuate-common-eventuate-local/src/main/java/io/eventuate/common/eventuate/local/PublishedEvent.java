@@ -6,13 +6,33 @@ import java.util.Optional;
  * An event that is published to Kafka
  */
 public class PublishedEvent implements BinLogEvent {
-
+  /**
+   * ID
+   */
   private String id;
+  /**
+   * 实体ID
+   */
   private String entityId;
+  /**
+   * 实体类型
+   */
   private String entityType;
+  /**
+   * 事件数据
+   */
   private String eventData;
+  /**
+   * 事件类型
+   */
   private String eventType;
+  /**
+   * binlog偏移量
+   */
   private BinlogFileOffset binlogFileOffset;
+  /**
+   * 元数据
+   */
   private Optional<String> metadata;
 
   public PublishedEvent() {

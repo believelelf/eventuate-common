@@ -3,6 +3,9 @@ package io.eventuate.common.jdbc.sqldialect;
 import java.util.Collection;
 import java.util.Comparator;
 
+/**
+ * SQL方言选择器
+ */
 public class SqlDialectSelector {
   private Collection<EventuateSqlDialect> sqlDialects;
 

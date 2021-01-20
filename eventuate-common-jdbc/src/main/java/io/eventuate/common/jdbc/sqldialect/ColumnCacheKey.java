@@ -3,6 +3,9 @@ package io.eventuate.common.jdbc.sqldialect;
 import org.apache.commons.lang.builder.EqualsBuilder;
 import org.apache.commons.lang.builder.HashCodeBuilder;
 
+/**
+ * 数据表列缓存
+ */
 public class ColumnCacheKey {
   private String schema;
   private String table;

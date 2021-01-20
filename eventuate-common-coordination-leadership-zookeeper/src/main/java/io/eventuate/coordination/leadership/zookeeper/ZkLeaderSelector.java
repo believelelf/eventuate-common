@@ -13,6 +13,9 @@ import org.slf4j.LoggerFactory;
 import java.util.UUID;
 import java.util.concurrent.CountDownLatch;
 
+/**
+ * Zookeeper Leadership 实现
+ */
 public class ZkLeaderSelector implements EventuateLeaderSelector {
   private Logger logger = LoggerFactory.getLogger(getClass());
 

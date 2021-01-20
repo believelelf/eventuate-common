@@ -3,6 +3,9 @@ package io.eventuate.common.jdbc.sqldialect;
 import io.eventuate.common.jdbc.EventuateJdbcStatementExecutor;
 import io.eventuate.common.jdbc.EventuateSchema;
 
+/**
+ * 数据库方言定义接口
+ */
 public interface EventuateSqlDialect extends EventuateSqlDialectOrder {
   boolean supports(String driver);
 

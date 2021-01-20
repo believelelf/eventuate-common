@@ -4,6 +4,9 @@ import org.apache.commons.lang.builder.EqualsBuilder;
 import org.apache.commons.lang.builder.HashCodeBuilder;
 import org.apache.commons.lang.builder.ToStringBuilder;
 
+/**
+ * binlog偏移定义：文件名、偏移量、忽略行
+ */
 public class BinlogFileOffset {
   private String binlogFilename;
   private long offset;
@@ -46,6 +49,11 @@ public class BinlogFileOffset {
     this.rowsToSkip = rowsToSkip;
   }
 
+  /**
+   * 当前偏移是否与指定偏移相同或在其之后。
+   * @param binlogFileOffset
+   * @return
+   */
   public boolean isSameOrAfter(BinlogFileOffset binlogFileOffset) {
     if(this.equals(binlogFileOffset))
       return true;

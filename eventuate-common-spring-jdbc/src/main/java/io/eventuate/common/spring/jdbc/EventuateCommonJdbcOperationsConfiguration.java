@@ -15,6 +15,9 @@ import org.springframework.context.annotation.Import;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.transaction.support.TransactionTemplate;
 
+/**
+ * 入口装配类
+ */
 @Configuration
 @Import({EventuateSchemaConfiguration.class, SqlDialectConfiguration.class})
 public class EventuateCommonJdbcOperationsConfiguration {

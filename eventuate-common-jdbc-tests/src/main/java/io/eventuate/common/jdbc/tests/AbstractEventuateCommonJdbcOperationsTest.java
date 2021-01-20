@@ -13,7 +13,9 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.*;
 
-
+/**
+ * Jdbc 操作测试
+ */
 public abstract class AbstractEventuateCommonJdbcOperationsTest {
   private EventuateSchema eventuateSchema = new EventuateSchema();
 

@@ -2,6 +2,9 @@ package io.eventuate.common.jdbc;
 
 import org.apache.commons.lang.StringUtils;
 
+/**
+ * 数据库schema 定义
+ */
 public class EventuateSchema {
   public static final String DEFAULT_SCHEMA = "eventuate";
   public static final String EMPTY_SCHEMA = "none";

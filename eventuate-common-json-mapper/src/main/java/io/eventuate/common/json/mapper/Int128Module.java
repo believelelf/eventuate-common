@@ -15,6 +15,9 @@ import io.eventuate.common.id.Int128;
 import java.io.IOException;
 import java.lang.reflect.Type;
 
+/**
+ * Int128 Json序列化及反序列化
+ */
 public class Int128Module extends SimpleModule {
 
   class IdDeserializer extends StdScalarDeserializer<Int128> {

@@ -1,5 +1,8 @@
 package io.eventuate.common.jdbc.sqldialect;
 
+/**
+ * mysql 数据库方言
+ */
 public class MySqlDialect extends DefaultEventuateSqlDialect {
 
   public MySqlDialect() {

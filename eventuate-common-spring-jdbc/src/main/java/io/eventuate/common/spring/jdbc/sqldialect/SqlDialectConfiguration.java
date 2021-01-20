@@ -10,6 +10,10 @@ import java.util.Collection;
 @Configuration
 public class SqlDialectConfiguration {
 
+  /**
+   * 可能存在数据库驱动适配性问题
+   * @return
+   */
   @Bean
   public MySqlDialect mySqlDialect() {
     return new MySqlDialect();

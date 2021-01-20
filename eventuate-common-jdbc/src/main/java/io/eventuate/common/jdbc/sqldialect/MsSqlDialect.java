@@ -1,5 +1,8 @@
 package io.eventuate.common.jdbc.sqldialect;
 
+/**
+ * SQLServer 数据库方言
+ */
 public class MsSqlDialect implements EventuateSqlDialect {
   @Override
   public String addLimitToSql(String sql, String limitExpression) {

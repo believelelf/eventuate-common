@@ -5,6 +5,9 @@ import org.springframework.transaction.support.TransactionTemplate;
 
 import java.util.function.Supplier;
 
+/**
+ * 事务模板执行，包装Spring TransactionTemplate
+ */
 public class EventuateSpringTransactionTemplate implements EventuateTransactionTemplate {
 
   private TransactionTemplate transactionTemplate;

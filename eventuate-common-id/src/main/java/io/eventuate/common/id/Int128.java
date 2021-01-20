@@ -1,5 +1,8 @@
 package io.eventuate.common.id;
 
+/**
+ * INT 128 实现
+ */
 public class Int128 {
 
   private long hi;
